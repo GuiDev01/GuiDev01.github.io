@@ -1,0 +1,112 @@
+
+   
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate&display=swap');
+
+body {
+  margin: 0%;
+  color: #000;
+  font-family: 'Orbitron', sans-serif;
+
+  
+      }
+
+.segundotext{
+  color: blue;
+  position: absolute;
+  top: 40%;
+  left: 16.40%;
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  opacity: 0;
+  animation: fadeInText 10s forwards;
+
+  
+        
+}
+
+.textgui { 
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0;
+  animation: fadeInText 10s forwards;
+  
+}
+
+
+header {
+  background-color: #000000;
+  padding: 15px 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  section {
+    padding: 50px;
+  }
+
+
+
+
+@keyframes fadeInText {
+  to {
+      opacity: 1;
+  }
+}
+
+
+.contatos {
+  display: flex;
+  align-items: center;
+}
+
+.contatos a {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.contatos a img {
+  vertical-align: middle;
+  margin-top: -5px; /* Adjust the value based on your preference */
+}
+
+#Habilidades p {
+  font-family: "Your Chosen Font", sans-serif; /* Replace "Your Chosen Font" with the desired font name */
+  margin-bottom: 10px;
+}
+
+#sobre p { 
+  font-family:"Your Chosen Font", sans-serif;
+  margin-bottom: 10px;
+}
